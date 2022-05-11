@@ -31,7 +31,7 @@ for(let i = 0; i < 2; i++){
 if(personalMovieDB.count < 10){
     console.log('You havent seen enough movies')
 }else if(personalMovieDB.count >= 10 && personalMovieDB.count < 30){
-    console.log('You like movies')
+    console.log('You like movies');
 }else{
     console.log('ERROR');
 }
